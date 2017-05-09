@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    consul:
+      discovery:
+        hostname: localhost
+        enabled: true
+        service-name: students
+  application:
+    name: students
