@@ -4,9 +4,8 @@ spring:
       discovery:
         hostname: localhost
         enabled: true
-        service-name: teachers
+        service-name: api-gateway
   application:
-    name: teachers
-
+    name: api-gateway
 server:
-  port: 8090
+  port: 8095

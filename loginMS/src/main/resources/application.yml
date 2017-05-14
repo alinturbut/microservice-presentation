@@ -1,0 +1,11 @@
+server:
+  port: 8085
+
+spring:
+  cloud:
+    consul:
+      discovery:
+        enabled: true
+        service-name: login
+  application:
+    name: login
