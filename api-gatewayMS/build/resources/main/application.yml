@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    consul:
+      discovery:
+        hostname: localhost
+        enabled: true
+        service-name: api-gateway
+  application:
+    name: api-gateway
+server:
+  port: 8095
